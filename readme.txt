@@ -22,17 +22,6 @@ functioning of your server.
 
 To install these files simply reset your XMLS to default, then upload these over the top of your existing files and restart your server.
 
-These XML files will add a one-off Trader Truck in a random location. DONE.
-
-A special "Event" tuck ("VehicleTruckEvent") has also been added. The "event truck" spawns in a random location,
-and the idea behind it is that it is a "spare" truck that you can load up with whatever you like (edit its entry in cfgspawnabletypes),
-and it won't appear anywhere else. I wanted a truck that I could fill with weapons, or NVG, or Hesco crates, or barrels, or tents  etc,
-that could be used to "create" events elsewhere in the map eg laying out a race track at NWAF, or putting tents down for a Conquest type
-PvP event etc - in otherwords a simple way a server owner can easily spawn in a lot of items and them have the ability to drive them somewhere. DONE.
-
-The Trader Truck and Event Truck are one-off spawns. To make them spawn in again, either "ruin" the engines or disable and re-enable the
-event. DONE.
-
 cfggameplay.json includes map function config that shows player position without needing GPS Receiver, tourist map or compass, and build anywhere settings. cfggameplay.json must be enabled in server settings and / or serverdz.cfg.
 DO NOT USE cfggameplay,json if you don't want build anywhere enabled.
 
@@ -42,11 +31,11 @@ Witches Night Event spawns bonfires in with seasonal loot. DONE.
 
 LOADS of trucks complete and with building stuff. DONE.
 
+The type="Truck_01_Covered_Orange" has weapons when spawned, but by default is disabled in events. Remove comments brackets to enable, will start spawning in ranom locations.
+
+The type="Truck_01_Covered_Blue" has party items when spawned, but by default is disabled in events. Remove comments brackets to enable, will start spawning in ranom locations.
+
 Humvee spawns in complete with gear in back.
-
-Trader Truck. DONE.
-
-Event Truck. DONE.
 
 CARS complete and with gas - compass - map - water bottle - can of drink - knife - whetstone - tins of food - can opener - lighter - gas - gas cooker - water purification - cooking pot (1/4 possible spawns) DONE.
 
